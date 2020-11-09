@@ -90,17 +90,17 @@ Louis Vuitton https://en.louisvuitton.com/eng-nl/homepage
 
 **Screenshot(s) van de eerste pagina (small screen): **
 
-<img src="images/homepage.svg" width="375px" alt="Homepagina 1 van louis vuitton">
-<img src="images/homepage2.svg" width="375px" alt="Homepagina 2 van louis vuitton">
-<img src="images/homepage3.svg" width="375px" alt="Homepagina 3 van louis vuitton">
+<img src="images/homepage.gif" width="375px" alt="Homepagina 1 van louis vuitton">
+<img src="images/homepage2.gif" width="375px" alt="Homepagina 2 van louis vuitton">
+<img src="images/homepage3.gif" width="375px" alt="Homepagina 3 van louis vuitton">
 
 
 **Screenshot(s) van de tweede pagina (small screen): **
 
-<img src="images/magazine1.svg" width="375px" alt="Magazinepagina 1 van louis vuitton">
-<img src="images/magazine2.svg" width="375px" alt="Magazinepagina 2 van louis vuitton">
-<img src="images/magazine3.svg" width="375px" alt="Magazinepagina 3 van louis vuitton">
-<img src="images/magazine4.svg" width="375px" alt="Magazinepagina 4 van louis vuitton">
+<img src="images/magazine1.gif" width="375px" alt="Magazinepagina 1 van louis vuitton">
+<img src="images/magazine2.gif" width="375px" alt="Magazinepagina 2 van louis vuitton">
+<img src="images/magazine3.gif" width="375px" alt="Magazinepagina 3 van louis vuitton">
+<img src="images/magazine4.gif" width="375px" alt="Magazinepagina 4 van louis vuitton">
 
 
 
