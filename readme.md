@@ -63,7 +63,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Breakdownschets (week 1)
 
 -uitwerken voor de 1e werkgroep - eind van de eerste week-
-
+<img src="images/breakdownschets.png" width="375px" alt="Breakdownschets van LV">
 
 
 ## Intake (week 1)
@@ -71,7 +71,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je startniveau:** -Rood-
 
-**Je focus:** -Surface plane-
+**Je focus:** -Responsiveness-
 
 **Je opdracht:** -Zara, https://www.zara.com/nl/ -
 
@@ -88,14 +88,14 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 - Na feedback gekozen voor een andere website:
 Louis Vuitton https://en.louisvuitton.com/eng-nl/homepage
 
-**Screenshot(s) van de eerste pagina (small screen): **
+**Screenshot(s) van de eerste pagina (small screen):**
 
 <img src="images/homepage.gif" width="375px" alt="Homepagina 1 van louis vuitton">
 <img src="images/homepage2.gif" width="375px" alt="Homepagina 2 van louis vuitton">
 <img src="images/homepage3.gif" width="375px" alt="Homepagina 3 van louis vuitton">
 
 
-**Screenshot(s) van de tweede pagina (small screen): **
+**Screenshot(s) van de tweede pagina (small screen):**
 
 <img src="images/magazine1.gif" width="375px" alt="Magazinepagina 1 van louis vuitton">
 <img src="images/magazine2.gif" width="375px" alt="Magazinepagina 2 van louis vuitton">
