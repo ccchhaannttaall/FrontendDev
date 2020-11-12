@@ -63,7 +63,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Breakdownschets (week 1)
 
 -Breakdown schets uitgewerkt. main 1 deel de rest is herhaling.
-<img src="images/breakdownschets.png" width="375px" alt="Breakdownschets van LV">
+<img src="images/breakdownschets.png" width="375px" alt="Breakdownschets 2 van LV">
 
 
 ## Intake (week 1)
