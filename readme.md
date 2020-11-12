@@ -73,17 +73,6 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je focus:** -Responsiveness-
 
-**Je opdracht:** -Zara, https://www.zara.com/nl/ -
-
-**Screenshot(s) van de eerste pagina (small screen):**
-
-<img src="images/homeZara.svg" width="375px" alt="Homepagina van de zara">
-
-**Screenshot(s) van de tweede pagina (small screen):**
-
-<img src="images/secondZara.svg" width="375px" alt="productenpagina na selectie">
-
-## na Intake (week 1)
 
 - Na feedback gekozen voor een andere website:
 Louis Vuitton https://en.louisvuitton.com/eng-nl/homepage
@@ -101,6 +90,10 @@ Louis Vuitton https://en.louisvuitton.com/eng-nl/homepage
 <img src="images/magazine2.gif" width="375px" alt="Magazinepagina 2 van louis vuitton">
 <img src="images/magazine3.gif" width="375px" alt="Magazinepagina 3 van louis vuitton">
 <img src="images/magazine4.gif" width="375px" alt="Magazinepagina 4 van louis vuitton">
+
+
+## na Intake (week 1)
+
 
 
 
