@@ -66,9 +66,13 @@ a:active {
   
 }
 button {
-  
+  width: 40px;
+  height: 40px;
 }
-
+/*oplossing maken met het aanroepen van de html !!!!!! */
+Button > p {
+  width: 200px;
+}
 /* form styling */
 form {
   max-width: 100%;
@@ -128,6 +132,10 @@ display: flex;
 article {
   
 }
+  article  img {
+    max-width: 100%;
+    max-height: 20%;
+  }
   article header {
 
   }
