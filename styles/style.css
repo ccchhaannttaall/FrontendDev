@@ -3,3 +3,129 @@
   box-sizing:border-box;  
 }
 
+/* Generic styling */
+* {
+
+}
+html {
+  font: 100% / 250% "Helvetica";
+}
+body {
+  font-size:1.25em;
+}
+h1 {
+  color:red;
+}
+h2 {
+  
+}
+p {
+  
+}
+ul {
+  
+}
+li {
+  
+} 
+a {
+  
+}
+a:link {
+  
+}
+a:visited {
+  
+}
+a:hover, a:focus {
+  
+}
+a:active {
+  
+}
+button {
+  
+}
+
+/* form styling */
+form {
+  
+}
+  fieldset {
+
+  }
+    legend {
+
+    }
+    label {
+
+    }
+    input {
+
+    }
+    input:invalid {
+
+    }
+
+/* Section styling */
+header {
+  
+}
+  header h1 {
+
+  }
+
+main {
+
+}
+  main button {
+
+  }
+section {
+  
+}
+  section header {
+
+  }
+  section h2 {
+
+  }
+article {
+  
+}
+  article header {
+
+  }
+  article h3 {
+
+  }
+  article footer {
+  
+  }
+
+aside {
+  
+}
+
+footer {
+  
+}
+
+/* Component styling */
+section#some-ultra-cool-component {
+  
+}
+
+
+/* Breakpoints */
+@media all and (min-width: 30em) {
+  
+}
+
+@media all and (min-width: 60em) {
+  
+}
+
+@media all and (min-width: 90em) {
+  
+}
