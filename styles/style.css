@@ -23,18 +23,18 @@ body {
 
 nav ul{
   display:flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   max-width: 100%;
   margin:0;
   padding: 0;
   list-style-type: none;
+  justify-content: space-evenly;
 }
 
 
 ul > li:nth-of-type(3) img {
-  display:flex;
-  justify-content: space-evenly;
   width: 200px;
+  padding: 0 20px 0 20px;
 }
 
 li img{
