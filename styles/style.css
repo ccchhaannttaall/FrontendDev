@@ -46,10 +46,24 @@ li img{
 }
 
 /* sliding hoofdimage styling. */
+header {
+
+}
+
+picture  {
+  display: flex;
+}
+
+picture > img {
+  max-width: 100%;
+  max-height: 40%;
+}
+
 section > picture{
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
+  max-height: 40%;
 }
 
 section  picture img{
@@ -72,7 +86,7 @@ header > div form{
 }
 #form{
   margin: 0 10px 10px 10px;
-  background-color: lightgray;
+  background-color: #ededed;
   border-radius: 15px;
   padding: 2px 2px 0px 9px;
 }
@@ -82,10 +96,9 @@ form > input{
   background-position: 1px 1px;
   background-repeat:no-repeat;
   width: 80%;
-  border-collapse: collapse;
   padding-left: 40px;
-  background-color: lightgray;
-
+  background-color: #ededed;
+  border:0;
 }
 
 fieldset {
@@ -106,16 +119,27 @@ input:invalid {
 
 section > button:nth-of-type(1){
 position:absolute;
+  top:200px;
   left:3px;
   width: 30px;
   height: 30px;
+  background-color: grey;]
 }
 
 section > button:nth-of-type(2){
 position:absolute;
+  top:200px;
   right: 3px;
   width: 30px;
   height: 30px;
+  background-color: grey;
+
+}
+
+section{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 section > button:nth-of-type(3) {
@@ -125,7 +149,6 @@ section > button:nth-of-type(3) {
   order: 3;
   text-align: center;
 }
-
 
 
 
@@ -146,7 +169,8 @@ p {
 }
 
 a {
-  
+  color: black;
+  text-decoration: none;
 }
 a:link {
   
@@ -162,12 +186,23 @@ a:active {
 }
 
 
+article > a{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+article > a button{
+  background-color: black;
+  color: navajowhite;
+  text-align: center;
+  width: 140px;
+  height:50px;
+}
+
 
 /* Section styling */
-header {
-  max-height: 20%;
-  max-width: 100%;
-}
+
   header h1 {
 
   }
@@ -181,16 +216,7 @@ main {
 section {
   
 }
-   picture  {
-display: flex;
-     width: 100%;
-  }
 
-  picture > img {
-    max-width: 100%;
-    max-height: 30%;
-  overflow-x: scroll;
-  }
 article {
   
 }
