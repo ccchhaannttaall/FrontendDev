@@ -6,33 +6,36 @@
 /* Generic styling */
 * {
 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
 }
 html {
   font: 100% / 250% "Helvetica";
 }
 body {
   font-size:1.25em;
+  margin: 0;
+  padding: 0;
 }
 
 
-
-nav > ul {
-  display: flex;
-  flex-direction: row;
-
+nav:first-of-type ul{
+  display:flex
 }
 
-nav > ul > li {
-  width: 100%;
-  height: 30%;
-  padding-left: 10px;
-  list-style-type:none;
+ul:nth-of-type(3) li {
+  flex-grow:1;
+  display:flex;
+  justify-content: space-evenly;
 }
 
-nav > ul > li > img{
-  max-width: 50%;
-  max-height: 50%;
+li > img {
+  margin-right:.125em;
+  max-height: 20px;
+  max-width: 100%;
 }
+
 
 
 h1 {

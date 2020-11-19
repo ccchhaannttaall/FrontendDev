@@ -95,6 +95,26 @@ Louis Vuitton https://en.louisvuitton.com/eng-nl/homepage
 ## na Intake (week 1)
 
 
+nav > ul {
+  display: flex;
+  flex-direction: row;
+
+}
+
+nav > ul > li {
+  width: 100%;
+  height: 30%;
+  padding-left: 10px;
+  list-style-type:none;
+}
+
+
+nav > ul > li > img{
+  max-width: 26px;
+  max-height: 26px;
+  min-width: 20px;
+  min-height: 20px;
+}
 
 
 
