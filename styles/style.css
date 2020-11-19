@@ -6,10 +6,9 @@
 /* Generic styling */
 * {
 
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-
 }
+
+
 html {
   font: 100% / 250% "Helvetica";
 }
@@ -17,6 +16,8 @@ body {
   font-size:1.25em;
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 
