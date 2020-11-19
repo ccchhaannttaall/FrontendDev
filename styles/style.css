@@ -228,8 +228,13 @@ footer > div > ul {
   list-style-type: none;
 }
 
-ul > li{
+footer > div > ul > li{
   padding: 5px;
+}
+
+ li > a>  p {
+  font-size: 18px;
+  font-weight: 300;
 }
 
 #taal > img {
