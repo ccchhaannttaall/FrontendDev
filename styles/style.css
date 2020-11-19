@@ -142,7 +142,8 @@ section{
 
 section > button:nth-of-type(3) {
   background-color: black;
-  color: navajowhite;
+  color:white;
+  font-weight: 300;
   width: 140px;
   order: 3;
   text-align: center;
@@ -192,7 +193,8 @@ article > a{
 }
 article > a button{
   background-color: black;
-  color: navajowhite;
+  color:white;
+  font-weight: 300;
   text-align: center;
   width: 140px;
   height:50px;
@@ -210,7 +212,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: grey;
+  background-color: #19110b;
 }
 
 footer > img{
@@ -235,11 +237,16 @@ footer > div > ul > li{
  li > a>  p {
   font-size: 18px;
   font-weight: 300;
+   color:white;
 }
 
 #taal > img {
   height: 22px;
   width: 25px;
+}
+
+#taal{
+  color:white;
 }
 
 /* Component styling */
