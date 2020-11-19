@@ -55,7 +55,7 @@ picture  {
 
 picture > img {
   max-width: 100%;
-  max-height: 40%;
+  max-height: 20%;
 }
 
 section > picture{
@@ -120,18 +120,22 @@ section > button:nth-of-type(1){
 position:absolute;
   top:200px;
   left:3px;
-  width: 30px;
-  height: 30px;
-  background-color: grey;]
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-collapse: collapse;
+  border: none;
 }
 
 section > button:nth-of-type(2){
 position:absolute;
   top:200px;
   right: 3px;
-  width: 30px;
-  height: 30px;
-  background-color: grey;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-collapse: collapse;
+  border: none;
 }
 
 section{
@@ -148,7 +152,6 @@ section > button:nth-of-type(3) {
   order: 3;
   text-align: center;
 }
-
 
 /* main styling. */
 h1 {
