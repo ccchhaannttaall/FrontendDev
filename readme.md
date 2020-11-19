@@ -9,7 +9,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 1. -bron 1 Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> -
 2. -bron 2 Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>-
 3. -bron 3 https://www.w3schools.com/howto/howto_js_filter_dropdown.asp-
-
+4. -bron 4 https://codeburst.io/how-to-create-horizontal-scrolling-containers-d8069651e9c6-
 
 
 ## Eindgesprek (week 7/8)
@@ -95,26 +95,6 @@ Louis Vuitton https://en.louisvuitton.com/eng-nl/homepage
 ## na Intake (week 1)
 
 
-nav > ul {
-  display: flex;
-  flex-direction: row;
-
-}
-
-nav > ul > li {
-  width: 100%;
-  height: 30%;
-  padding-left: 10px;
-  list-style-type:none;
-}
-
-
-nav > ul > li > img{
-  max-width: 26px;
-  max-height: 26px;
-  min-width: 20px;
-  min-height: 20px;
-}
 
 
 
