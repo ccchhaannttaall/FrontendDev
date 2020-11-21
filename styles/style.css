@@ -126,8 +126,20 @@ input:invalid {
 
 }
 
-section > button:nth-of-type(1){
-position:absolute;
+
+
+button{
+  background-color: black;
+  color:white;
+  font-weight: 300;
+  width: 140px;
+  height: 60px;
+  order: 3;
+  text-align: center;
+}
+
+section:nth-of-type(1) > button:nth-of-type(1){
+  position:absolute;
   top:200px;
   left:3px;
   width: 40px;
@@ -146,22 +158,12 @@ position:absolute;
   background-color: white;
   border-collapse: collapse;
   border: none;
-
 }
 
 section{
   display: flex;
   align-items: center;
   margin-bottom: 10px;
-}
-
-section > button:nth-of-type(3) {
-  background-color: black;
-  color:white;
-  font-weight: 300;
-  width: 140px;
-  order: 3;
-  text-align: center;
 }
 
 /* main styling. */
@@ -262,6 +264,37 @@ footer > div > ul > li{
 #taal{
   color:white;
 }
+
+
+
+/* Style the button that is used to open and close the collapsible content */
+article > button {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  display: inline;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+main > section > article{
+  width: 80%;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding:0;
+  margin: 0;
+}
+
 
 /* Component styling */
 section#some-ultra-cool-component {

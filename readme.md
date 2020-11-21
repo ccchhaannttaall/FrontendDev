@@ -10,6 +10,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 2. -bron 2 Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>-
 3. -bron 3 https://www.w3schools.com/howto/howto_js_filter_dropdown.asp-
 4. -bron 4 https://codeburst.io/how-to-create-horizontal-scrolling-containers-d8069651e9c6-
+5. -bron 5 https://www.w3schools.com/howto/howto_js_collapsible.asp-
 
 
 ## Eindgesprek (week 7/8)
