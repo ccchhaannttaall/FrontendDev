@@ -11,6 +11,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 3. -bron 3 https://www.w3schools.com/howto/howto_js_filter_dropdown.asp-
 4. -bron 4 https://codeburst.io/how-to-create-horizontal-scrolling-containers-d8069651e9c6-
 5. -bron 5 https://www.w3schools.com/howto/howto_js_collapsible.asp-
+6. -bron 6 Iris van Ollefen-
 
 
 ## Eindgesprek (week 7/8)
@@ -43,8 +44,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
-<img src="./images/screenshot1" width="375px" screenshot van voortgang">
-<img src="./images/screenshot2 width="375px" screenshot van voortgang">
+<img src="./images/screenshot1" width="375px" alt="screenshot van voortgang">
+<img src="./images/screenshot2 width="375px" alt="screenshot van voortgang">
 
 De svg images hadden perongeluk allemaal nog een andere hoogte ondanks dat ik ze op maat gemaakt had in illustrator. Na tips van iris om een maximale hoogte mee te geven verdwenen mijn images niet meer. En kon ik verder. ik vond dit heel lastig om uit te zoeken om dat niet zozeer de pagina brak maar de images echt verdwenen.
 Ook vond ik het lastig dat align content alleen pas gebruikt kan worden na flex-wrap:wrap. ik had dit na vragen en een toevallig oplettende blik op css-almanac wel begrepen.
