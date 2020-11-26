@@ -77,11 +77,11 @@ Wat goed ging was de html schrijven, en mijn inzet om veel te leren van de opdra
 
 -samen met je groepje opstellen-
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | Chantal            | ---          | ---              |
-| dit bespreken  | Hoe krijg ik dit   | en ik dit    | en dan ik dat    |
-| an dat ook nog | af in zo een       | nog een punt | dit wil ik zeker |
-| ...            | korte tijd !       | ...          | ...              |
+| Anniek      | Chantal        | Gwyneth     | Mark       |
+| ---            | ---            | ----        | ---              |
+| de slider header  | Hoe krijg ik dit af in zo een korte tijd !  | De afbeeldingen in slider 2 op de gamepagina    | en dan ik dat    |
+| de breedte van de afbeeldingen |   nog minstens 9 taken te voldoen tot 90%   | zoekbalk zonder streepje | dit wil ik zeker |
+|  de footer die 2 coloms hoort          |        | list items in slider 1 niet mooi          | ...              |
 
 ### Verslag van meeting
 
