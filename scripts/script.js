@@ -14,3 +14,13 @@ for (i = 0; i < coll.length; i++) {
         }
     });
 }
+
+/* menu klikbaar maken*/
+var deButton = document.querySelector(".menuActief");
+
+function doeFormHeenEnWeer(){
+    let hetFormulier = document.querySelector("form");
+    hetFormulier.classList.toggle("toonForm");
+}
+
+deButton.addEventListener("click", doeFormHeenEnWeer);
