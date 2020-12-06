@@ -19,8 +19,9 @@ for (i = 0; i < coll.length; i++) {
 var deButton = document.querySelector(".menuActief");
 
 function doeFormHeenEnWeer(){
-    let hetFormulier = document.querySelector("form");
+    let hetFormulier = document.querySelector("aside");
     hetFormulier.classList.toggle("toonForm");
 }
 
 deButton.addEventListener("click", doeFormHeenEnWeer);
+

@@ -17,12 +17,12 @@ body {
   margin: 0;
   padding: 0;
   max-width: 100%;
+  display:flex;
+  flex-direction: column;
 }
 
 /* Navigatie styling. */
 header {
-  position: fixed;
-  top: 0;
   width: 100%;
   background-color: white;
   z-index: 1;
@@ -37,10 +37,19 @@ nav ul{
   list-style-type: none;
   justify-content: space-evenly;
 }
-
+nav ul li:nth-of-type(2){
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+nav ul li:nth-of-type(1){
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
 ul > li:nth-of-type(3) img {
-  width: 150px;
-  padding: 0 20px 0 20px;
+  width: 50px;
+  padding: 0;
 }
 
 li img{
@@ -52,12 +61,12 @@ li img{
 }
 
 /* menu styling */
-body form {
+body aside {
   display: flex;
   flex-direction: column;
 }
 
-form {
+aside {
   background-color:rgba(179,179,179,.95);
   position:absolute;
   width:calc(100% - 3em);
@@ -65,22 +74,26 @@ form {
   left:0;
   top:0; bottom:0;
   transform:translateX(-100%);
-  transition:.5s;
   z-index: 10;
+  order: 1
 }
 
-form.toonForm {
+aside.toonForm {
   transform:translateX(0%);
+  transition:.5s;
 }
 
-form a {
+aside ul a {
   padding-top: 1em;
   padding-left: 1em;
 }
 
-/* sliding hoofdimage styling. */
-header {
 
+
+/* main styling */
+
+main {
+  order: 2;
 }
 
 picture  {
@@ -133,25 +146,39 @@ section {
   border: none;
 }
 
+body form > button{
+  position:relative;
+
+  width:2em; height:2em;
+  margin:0; padding:0;
+  font-size:1em;
+  appearance:none;
+  border:none;
+  background-color:Silver;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
 
 
 /*form styling */
 
-header > div form{
+header > div aside{
   max-width: 100%;
 }
 
-#achtergrondForm{
+.achtergrondForm{
   background-color:white;
 }
-#form{
+.form{
   margin: 0 10px 10px 10px;
   background-color: #ededed;
   border-radius: 15px;
   padding: 2px 2px 0px 9px;
 }
 
-form > input{
+.achtergrondForm > input{
   background-image: url("../images/search.svg");
   background-position: 1px 1px;
   background-repeat:no-repeat;
@@ -259,6 +286,7 @@ footer {
   flex-direction: column;
   align-items: center;
   background-color: #19110b;
+  order: 3;
 }
 
 footer > img{
@@ -291,10 +319,6 @@ footer > div > ul > li{
   width: 25px;
 }
 
-#taal{
-  color:white;
-}
-
 
 
 /* Style the button that is used to open and close the collapsible content */
@@ -313,7 +337,7 @@ footer > div > ul > li{
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
-  background-color: #ccc;
+  background-color: white;
 }
 
 /* Style the collapsible content. Note: hidden by default */
@@ -331,16 +355,52 @@ section#some-ultra-cool-component {
   
 }
 
+@media (min-width:56em){
+  aside {
+    transform:translateX(0);
+    transition:unset;
+    position:unset;
+    width:100%;
+    max-width: unset;
+  }
+  nav ul li:nth-of-type(3){
+    visibility: hidden;
+  }
+  nav ul li:nth-of-type(5){
+    visibility: hidden;
+  }
+  ul{
+    display:flex;
+  }
+  aside > div, aside > a, p{
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+ aside ul li:nth-of-type(6){
+   visibility: hidden;
+   width: 0;
+ }
+ aside ul li:nth-of-type(7){
+   visibility: hidden;
+   width: 0;
+ }
+
+
+}
+
+
 
 /* Breakpoints */
 @media all and (min-width: 30em) {
-  
+
 }
 
 @media all and (min-width: 60em) {
-  
+
 }
 
 @media all and (min-width: 90em) {
-  
+
 }
+

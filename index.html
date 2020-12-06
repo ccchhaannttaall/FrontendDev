@@ -14,14 +14,25 @@
 
 <body class="home">
 <!-- het formulier gaat off-canvas-->
-<form>
-    <a href="">NEW</a>
-    <a href="">WOMAN</a>
-    <a href="">MEN</a>
-    <a href="">ART OF LIVING</a>
-    <a href="">MAGAZINE</a>
-    <a href="">Sustainability</a>
-    <a href="">Stores</a>
+<aside>
+    <ul>
+        <li><a href="">NEW</a></li>
+        <li><a href="">WOMAN</a></li>
+        <li><a href="">MEN</a></li>
+        <li><a href="">ART OF LIVING</a></li>
+        <li><a href="">MAGAZINE</a></li>
+        <li><a href="">Sustainability</a></li>
+        <li><a href="">Stores</a></li>
+        <li>
+            <div class="achtergrondForm">
+                <div class="form">
+                    <form role="search" action="#">
+                        <input placeholder="Product, Store, ..." type="search" autocomplete="off" autocapitalize="off">
+                    </form>
+                </div>
+            </div>
+        </li>
+    </ul>
     <div id="taal">
         <span> Ship to:</span>
         <img src="images/Nlvlag.png" alt="Nederlandse vlag">
@@ -29,10 +40,17 @@
     </div>
     <a href="">Can we help you?</a>
     <p>+31 207 219 441</p>
-</form>
+</aside>
 <header>
     <nav>
         <ul>
+            <li> <div id="taal">
+                <span> Ship to:</span>
+                <img src="images/Nlvlag.png" alt="Nederlandse vlag">
+                <span>Netherlands</span>
+            </div>
+            </li>
+            <li><p>+31 207 219 441</p></li>
             <li>
                 <img class="menuActief" src="images/menu.svg" alt="menu symbool">
             </li>
@@ -50,8 +68,8 @@
             </li>
         </ul>
     </nav>
-    <div id="achtergrondForm">
-        <div id="form">
+    <div class="achtergrondForm">
+        <div class="form">
             <form role="search" action="#">
                 <input placeholder="Product, Store, ..." type="search" autocomplete="off" autocapitalize="off">
             </form>
