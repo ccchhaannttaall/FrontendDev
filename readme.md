@@ -32,8 +32,20 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+-voortgang screenshots plaatsen. to do.-
 
+Het maken van een uitklapbaar menu was nog best gemakkelijk te doen, helaas was het vervolgens responsive maken van dit menu een veel grotere uitdaging.
+Ook bleek de verschillende layout die op verschillende maten veranderd nog wel een klus te zijn. Nadat ik dit voor elkaar kreeg kwam ik eracht dat LV op hun eigen website ook van 1 navigatiebar naar 2 navigatiebars gaat.
+Dit wordt opgebouwd vanuit de bestaande navigatie.
+Uit de feedback kwam dat ik elementen niet dubbel mocht gebruiken dus ik moet het formulier nog aanpassen dat het 1 start locatie krijgt en daarna van plek wisselt.
+
+Overall veel tijd kwijt geweest aan de oplossing met de @media's en het responsieve menu. Nu als tip gekregen om de focus te leggen bij de rest van de pagina's en daarna verder te gaan met het menu.
+Voor aanstaande les helaas de belissing moeten maken om front-end helemaal opzij te zetten en te focussen op mijn andere vakken.
+
+Alle verdere aanpassingen aan front-end uitgesteld naar de kerstvakantie.
+
+To do's in kerstvakantie: definitief de main en footer helemaal in orde maken, daarna focussen op de navigatie bar, een semantische controle doen of alles correct is.
+En als laatste een screenreader test uitvoeren. En als er tijd over is expirimenteren met animatie.
 
 
 ## Voortgang 1 (week 3)
