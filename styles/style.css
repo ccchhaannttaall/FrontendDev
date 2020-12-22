@@ -299,6 +299,7 @@ footer {
   align-items: center;
   background-color: #19110b;
   order: 3;
+  color: white;
 }
 
 footer > img{
@@ -361,6 +362,15 @@ footer > div > ul > li{
   margin: 0;
 }
 
+.home > section:first-of-type > div {
+  width: 100%;
+}
+
+.home > section:first-of-type {
+  order: 2;
+  display: flex;
+}
+
 
 /* Component styling */
 section#some-ultra-cool-component {
@@ -384,11 +394,18 @@ section#some-ultra-cool-component {
   ul{
     display:flex;
   }
-  aside > div, aside > a, p{
+  aside > div, aside > a, aside > p{
     visibility: hidden;
     width: 0;
     height: 0;
   }
+
+  aside > ul > button {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+  }
+
  aside ul li:nth-of-type(6){
    visibility: hidden;
    width: 0;
@@ -397,8 +414,33 @@ section#some-ultra-cool-component {
    visibility: hidden;
    width: 0;
  }
+  .home > main > section:last-of-type{
+    display: flex;
+    flex-direction: row;
+  }
+  .home > main > section:last-of-type > article > a > img {
+    width: 20em;
+  }
+  aside > ul > li > a {
+    font-size: 0.6em;
 
+  }
+  aside > ul > li {
+    list-style-type: none;
+  }
 
+  .home > section:first-of-type {
+    flex-direction: row;
+  }
+
+  .home > section:first-of-type > aside {
+    order: 1;
+  }
+
+  .home > section:first-of-type > div {
+    order: 2;
+    max-width: 25%;
+  }
 }
 
 
