@@ -176,8 +176,9 @@ body form > button{
 
 /*form styling */
 
-header > div aside{
+aside{
   max-width: 100%;
+  background-color:white;
 }
 
 .achtergrondForm{
@@ -357,16 +358,23 @@ footer > div > ul > li{
 .magazinePagina main > section > article{
   width: 80%;
   overflow: hidden;
-  background-color: #f1f1f1;
   padding:0;
   margin: 0;
 }
 
-.home > section:first-of-type > div {
+.magazinePagina main > section > article article {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 2em;
+  font-size: medium;
+}
+
+body > section:first-of-type > div {
   width: 100%;
 }
 
-.home > section:first-of-type {
+body > section:first-of-type {
   order: 2;
   display: flex;
 }
@@ -377,7 +385,10 @@ section#some-ultra-cool-component {
   
 }
 
-@media (min-width:56em){
+
+
+/* Breakpoints */
+@media all and (min-width: 30em) {
   aside {
     transform:translateX(0);
     transition:unset;
@@ -406,14 +417,14 @@ section#some-ultra-cool-component {
     width: 0;
   }
 
- aside ul li:nth-of-type(6){
-   visibility: hidden;
-   width: 0;
- }
- aside ul li:nth-of-type(7){
-   visibility: hidden;
-   width: 0;
- }
+  aside ul li:nth-of-type(6){
+    visibility: hidden;
+    width: 0;
+  }
+  aside ul li:nth-of-type(7){
+    visibility: hidden;
+    width: 0;
+  }
   .home > main > section:last-of-type{
     display: flex;
     flex-direction: row;
@@ -429,25 +440,39 @@ section#some-ultra-cool-component {
     list-style-type: none;
   }
 
-  .home > section:first-of-type {
+  body > section:first-of-type {
     flex-direction: row;
   }
 
-  .home > section:first-of-type > aside {
+  body > section:first-of-type > aside {
     order: 1;
   }
 
-  .home > section:first-of-type > div {
+  body > section:first-of-type > div {
     order: 2;
     max-width: 25%;
   }
-}
-
-
-
-/* Breakpoints */
-@media all and (min-width: 30em) {
-
+  .magazinePagina > main > section:first-of-type > article > button {
+    order:1;
+    max-width: 3em;;
+  }
+  .magazinePagina > main > section:first-of-type > article {
+     display: flex;
+     flex-direction: row;
+     width: 100%;
+    justify-content: center;
+   }
+  .magazinePagina > main > section:first-of-type > article > article {
+    display: flex;
+    flex-direction: row;
+    order:2;
+    align-items: center;
+  }
+  .magazinePagina > main > section:first-of-type > article > article > a {
+    margin-bottom: 0;
+    padding-right: 0.5em;
+    font-size: small;
+  }
 }
 
 @media all and (min-width: 60em) {
