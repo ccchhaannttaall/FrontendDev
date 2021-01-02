@@ -23,10 +23,27 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 -screenshot(s) van je eindresultaat-
 
 
+## Werken met screenrecorder
+
+-Ik heb ontdekt tijdens het afspelen van beide webpaginas dat er echt nog wel veel ruimte is voor verbetering.
+Bijvoorbeeld bij lijsten en knoppen, mijn gebruikers krijgen weinig informatie en de links worden erg snel afgespeeld.
+Ook knoppen worden benoemd als Knop - Afbeelding - Knop. Hier moet ik zeker nog verandering in brengen om de website gebruiksvriendelijker te maken
+voor mensen met een visuele handicap.
+Naast dat de html dus aanpassingen nodig heeft moet ik ook iets bedeken voor de tekst. Louis vuitton gebruikt namelijk zowel Nederlands als Engels en Frans op hun website.
+Ik merk dat de screenrecorder hier veel moeite mee heeft en daardoor de namen als onverstaanbaar uitspreekt voor de gebruiker.
+Misschien kan ik ervoor kiezen om een gebruiksvriendelijke pagina te laden voor deze mensen met alles in het Nederlands.
+Of kan ik aangeven aan de screenreader wanneer iets in franse taal is. Hierin moet ik mijzelf nog verder verdiepen.-
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+-Ik heb bij voortgang 3 aangegeven in mijn gesprek met de leraar dat ik helaas erg weinig verder gekomen ben sinds voortgang 2.
+Ik heb namelijk zeer veel last ervaren van mijn chronische depressie die nu zwaarder tot uiting komt in de winter en met coronatijd.
+Dit zorgt ervoor dat ik elke dag minimaal wat aan mijn website heb kunnen doen omdat ik een zeer korte aandachtsspan heb en vooral veel bij slaap.
+Ik heb wel een duidelijke planning voor mijzelf gemaakt in week 2 en hoop dat ik in de kerstvakantie genoeg afleiding en rust heb zodat mijn depressie weer meer naar de 
+achtergrond kan verdwijnen.
+
+mijn to do's blijven dus: Definitief de main en footer in orde maken. Daarna nog focus op de navigatiebar. 
+Vervolgens de screenreader test uitvoeren en kijken of alle code semantisch correct is. En wanneer ik tijd over heb nog expirimenteren met animatie.-
 
 
 
