@@ -333,6 +333,17 @@ footer > div > ul > li{
   width: 25px;
 }
 
+.magazinePagina > main > section > ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.magazinePagina > main > section > ul li{
+  padding: 1em;
+  text-decoration: underline;
+  list-style-type: none;
+}
 
 
 /* Style the button that is used to open and close the collapsible content */
