@@ -49,7 +49,11 @@ Vervolgens de screenreader test uitvoeren en kijken of alle code semantisch corr
 
 ## Voortgang 2 (week 5)
 
--voortgang screenshots plaatsen. to do.-
+<img src="./images/voortgang2.1.png">
+<img src="./images/voortgang2.2.png">
+<img src="./images/voortgang2.3.png">
+<img src="./images/voortgang2.4.png">
+<img src="./images/voortgang2.5.png">
 
 Het maken van een uitklapbaar menu was nog best gemakkelijk te doen, helaas was het vervolgens responsive maken van dit menu een veel grotere uitdaging.
 Ook bleek de verschillende layout die op verschillende maten veranderd nog wel een klus te zijn. Nadat ik dit voor elkaar kreeg kwam ik eracht dat LV op hun eigen website ook van 1 navigatiebar naar 2 navigatiebars gaat.
@@ -74,7 +78,7 @@ En als laatste een screenreader test uitvoeren. En als er tijd over is expirimen
 **Screenshot(s):**
 
 <img src="./images/screenshot1" width="375px" alt="screenshot van voortgang">
-<img src="./images/screenshot2 width="375px" alt="screenshot van voortgang">
+<img src="./images/screenshot2" width="375px" alt="screenshot van voortgang">
 
 De svg images hadden perongeluk allemaal nog een andere hoogte ondanks dat ik ze op maat gemaakt had in illustrator. Na tips van iris om een maximale hoogte mee te geven verdwenen mijn images niet meer. En kon ik verder. ik vond dit heel lastig om uit te zoeken om dat niet zozeer de pagina brak maar de images echt verdwenen.
 Ook vond ik het lastig dat align content alleen pas gebruikt kan worden na flex-wrap:wrap. ik had dit na vragen en een toevallig oplettende blik op css-almanac wel begrepen.
