@@ -19,6 +19,7 @@ body {
   max-width: 100%;
   display:flex;
   flex-direction: column;
+  overflow-x: hidden;
 }
 
 /* Navigatie styling. */
@@ -407,6 +408,10 @@ section#some-ultra-cool-component {
     width:100%;
     max-width: unset;
   }
+  aside > ul {
+    list-style-type: none;
+  }
+
   nav ul li:nth-of-type(3){
     visibility: hidden;
     width: 0;
@@ -426,7 +431,7 @@ section#some-ultra-cool-component {
     height: 0;
   }
 
-  aside > ul > li:nth-of-type(1) {
+  aside > ul li:nth-of-type(1) {
     visibility: hidden;
     height: 0;
     width: 0;

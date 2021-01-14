@@ -17,11 +17,24 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Eindgesprek (week 7/8)
 
 -dit ging goed & dit was lastig-
+Het lastigste vond ik om mijn focus en energie erbij te houden. Vooral nadat ik verder in het vak kwam en er steeds meer CSS kwam te staan op de pagina had ik het gevoel dat ik niets kon aanpassen zonder dat ik alle nth of types moest aanpassen.
+Ik heb het dan ook erg tijdrovend gevonden om allemaal andere oplossingen te gebruiken dan classes toen ik heel specifiek ging werken aan bepaalde elementen.
+Met elementen die steeds terugkomend zijn zoals een navigatie en een footer vond ik het wel veel fijner om niet met classes te werken omdat je gewoon weg sneller bent.
+Verkeerd gebruik van classes is dan namelijk ook weer heel erg tijdrovend.
+Verder heb ik wel geleerd dat ik in de toekomst meer tijd zou willen besteden aan het uitdenken van hoe ik mijn html het beste kan schrijven in verhouding tot mijn css.
+Ik had nu in het begin heel veel images in articles gestopt zonder er eigenlijk bij stil te staan hoe ik wat zou plaatsen.
+Mijn breakdownschets had ik dan ook liever ook voor widescreen gemaakt zodat ik daar misschien eerder tot ontdekking was gekomen hoe in mijn detail pagina bepaalde elementen in een rij van 2 of 3 staan.
+Overall vond ik het een leuk vak alleen had ik graag meer tijd gehad om ook animaties te leren. Dit is dan weer niet de schuld van school maar meer hoe ik de laatste tijd in mijn vel zit.
 
 **Screenshot(s):**
 
 -screenshot(s) van je eindresultaat-
-
+<img src="./images/eindresultaat1.png">
+<img src="./images/eindresultaat2.png">
+<img src="./images/eindresultaat3.png">
+<img src="./images/eindresultaat4.png">
+<img src="./images/eindresultaat5.png">
+<img src="./images/eindresultaat6.png">
 
 ## Werken met screenrecorder
 
@@ -35,9 +48,9 @@ Misschien kan ik ervoor kiezen om een gebruiksvriendelijke pagina te laden voor 
 Of kan ik aangeven aan de screenreader wanneer iets in franse taal is. Hierin moet ik mijzelf nog verder verdiepen.-
 
 ## Voortgang 3 (week 6)
-<img src="./images/voortgang3.png">
-<img src="./images/voortgang3.2.png">
-<img src="./images/voortgang3.3.png">
+<img src="./images/voortgang3.png ">
+<img src="./images/voortgang3.2.png ">
+<img src="./images/voortgang3.3.png ">
 
 -Ik heb bij voortgang 3 aangegeven in mijn gesprek met de leraar dat ik helaas erg weinig verder gekomen ben sinds voortgang 2.
 Ik heb namelijk zeer veel last ervaren van mijn chronische depressie die nu zwaarder tot uiting komt in de winter en met coronatijd.
