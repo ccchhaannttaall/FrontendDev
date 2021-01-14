@@ -398,9 +398,13 @@ section#some-ultra-cool-component {
   }
   nav ul li:nth-of-type(3){
     visibility: hidden;
+    width: 0;
+    height: 0;
   }
   nav ul li:nth-of-type(5){
     visibility: hidden;
+    width:0;
+    height: 0;
   }
   ul{
     display:flex;
@@ -420,10 +424,12 @@ section#some-ultra-cool-component {
   aside ul li:nth-of-type(6){
     visibility: hidden;
     width: 0;
+    height:0;
   }
   aside ul li:nth-of-type(7){
     visibility: hidden;
     width: 0;
+    height:0;
   }
   .home > main > section:last-of-type{
     display: flex;
@@ -476,6 +482,30 @@ section#some-ultra-cool-component {
 }
 
 @media all and (min-width: 60em) {
+ nav {
+   display: flex;
+   justify-content: flex-end;
+ }
+
+  .magazinePagina > main > article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .magazinePagina > main > article> button {
+    max-width: 25%;
+    background-color: black;
+    color: white;
+  }
+
+  .magazinePagina > main > article > section{
+    flex-direction: row;
+  }
+  /*https://www.w3schools.com/cssref/sel_nth-of-type.asp*/
+  .magazinePagina > main > article:nth-of-type(2n+1) > section > a{
+    width: 33%;
+  }
 
 }
 
