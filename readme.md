@@ -35,6 +35,9 @@ Misschien kan ik ervoor kiezen om een gebruiksvriendelijke pagina te laden voor 
 Of kan ik aangeven aan de screenreader wanneer iets in franse taal is. Hierin moet ik mijzelf nog verder verdiepen.-
 
 ## Voortgang 3 (week 6)
+<img src="./images/voortgang3.png">
+<img src="./images/voortgang3.2.png">
+<img src="./images/voortgang3.3.png">
 
 -Ik heb bij voortgang 3 aangegeven in mijn gesprek met de leraar dat ik helaas erg weinig verder gekomen ben sinds voortgang 2.
 Ik heb namelijk zeer veel last ervaren van mijn chronische depressie die nu zwaarder tot uiting komt in de winter en met coronatijd.
@@ -77,8 +80,8 @@ En als laatste een screenreader test uitvoeren. En als er tijd over is expirimen
 
 **Screenshot(s):**
 
-<img src="./images/screenshot1" width="375px" alt="screenshot van voortgang">
-<img src="./images/screenshot2" width="375px" alt="screenshot van voortgang">
+<img src="./images/screenshot1.png" width="375px" alt="screenshot van voortgang">
+<img src="./images/screenshot2.png" width="375px" alt="screenshot van voortgang">
 
 De svg images hadden perongeluk allemaal nog een andere hoogte ondanks dat ik ze op maat gemaakt had in illustrator. Na tips van iris om een maximale hoogte mee te geven verdwenen mijn images niet meer. En kon ik verder. ik vond dit heel lastig om uit te zoeken om dat niet zozeer de pagina brak maar de images echt verdwenen.
 Ook vond ik het lastig dat align content alleen pas gebruikt kan worden na flex-wrap:wrap. ik had dit na vragen en een toevallig oplettende blik op css-almanac wel begrepen.
