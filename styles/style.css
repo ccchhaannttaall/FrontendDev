@@ -426,18 +426,18 @@ section#some-ultra-cool-component {
     height: 0;
   }
 
-  aside > ul > button {
+  aside > ul > li:nth-of-type(1) {
     visibility: hidden;
     height: 0;
     width: 0;
   }
 
-  aside ul li:nth-of-type(6){
+  aside ul li:nth-of-type(7){
     visibility: hidden;
     width: 0;
     height:0;
   }
-  aside ul li:nth-of-type(7){
+  aside ul li:nth-of-type(8){
     visibility: hidden;
     width: 0;
     height:0;
