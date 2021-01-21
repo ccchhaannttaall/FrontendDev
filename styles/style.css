@@ -84,9 +84,11 @@ aside.toonForm {
   transition:.5s;
 }
 
-aside ul a {
+aside ul li a {
   padding-top: 1em;
   padding-left: 1em;
+  color: black;
+  font-size: medium;
 }
 
 
@@ -241,11 +243,15 @@ section{
 h1 {
   color:black;
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+  font-weight: 900;
 }
 h2 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+  font-weight: 900;
+}
+
+.magazinePagina > main > article > h1 {
+  font-size: 7.5rem;
 }
 
 p {
@@ -258,16 +264,16 @@ a {
   text-decoration: none;
 }
 a:link {
-  
+
 }
 a:visited {
-  
+
 }
 a:hover, a:focus {
-  
+color: lightgrey;
 }
 a:active {
-  
+color: darkred;
 }
 
 
@@ -323,7 +329,7 @@ footer > div > ul > li{
   padding: 5px;
 }
 
- li > a>  p {
+ul > li > a {
   font-size: 18px;
   font-weight: 300;
    color:white;
@@ -332,6 +338,12 @@ footer > div > ul > li{
 .taal > img {
   height: 22px;
   width: 25px;
+}
+
+/* de details pagina styling die te specifiek was om gemakkelijk algemeen te kunnen schrijven. */
+
+.magazinePagina > ul > li > a {
+  color: black; !important;
 }
 
 .magazinePagina > main > section > ul {
