@@ -29,7 +29,7 @@ Overall vond ik het een leuk vak alleen had ik graag meer tijd gehad om ook anim
 **Screenshot(s):**
 <img src="./images/homepagina.png">
 <img src="./images/homedetail.png">
-<img src="./images/magazinepagina.png">
+<img src="./images/magazinepagina.jpg">
 <img src="./images/magazinedetail1.png">
 <img src="./images/magazinedetails2.png">
 -screenshot(s) van je eindresultaat-
