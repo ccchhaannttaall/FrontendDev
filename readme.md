@@ -48,8 +48,6 @@ Misschien kan ik ervoor kiezen om een gebruiksvriendelijke pagina te laden voor 
 Of kan ik aangeven aan de screenreader wanneer iets in franse taal is. Hierin moet ik mijzelf nog verder verdiepen.-
 
 ## Voortgang 3 (week 6)
-<img src="./images/voortgang3.png ">
-<img src="./images/voortgang3.2.png ">
 <img src="./images/voortgang3.3.png ">
 
 -Ik heb bij voortgang 3 aangegeven in mijn gesprek met de leraar dat ik helaas erg weinig verder gekomen ben sinds voortgang 2.
