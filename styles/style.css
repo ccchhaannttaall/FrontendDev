@@ -22,7 +22,9 @@ body {
   overflow-x: hidden;
 }
 
-/* Navigatie styling. */
+/* Navigatie styling. ik heb gebruik gemaakt van een header zodat ik op groot scherm 3 rijen kan tonen met informatie. in de header
+ zitten dan 3 knoppen bestaand uit, mijn favorieten, mijn profiel en mijn winkelmandje.
+ Op mobiel scherm is dit in princiepe hetzelfde maar toont er dan op dezelfde rij ook een louis vuitton logo en een hamburger menuknop.*/
 header {
   width: 100%;
   background-color: white;
@@ -61,7 +63,10 @@ li img{
   height:40px;
 }
 
-/* menu styling */
+/* menu styling , De aside wordt gebruikt voor zowel de mobiele uitklapbare navigatiemenu als op het grote scherm.
+ Om niet cruciale linkjes een plaats te geven. Bepaalde linkjes in deze aside worden op grootscherm verbogen zodat deze
+ in de footer kan worden gezet. Daarnaast zit er op deze aside css animaties zodat op mobiel deze mooi wordt weergegeven.
+ */
 body aside {
   display: flex;
   flex-direction: column;
@@ -79,6 +84,22 @@ aside {
   order: 1
 }
 
+aside > ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+aside li div {
+   font-size: medium;
+   display: flex;
+   padding-left: 1em;
+ }
+
+aside li p {
+  padding-left: 1em;
+  font-size: medium;
+}
+
 aside.toonForm {
   transform:translateX(0%);
   transition:.5s;
@@ -91,9 +112,20 @@ aside ul li a {
   font-size: medium;
 }
 
+aside ul li:nth-of-type(1n+2) {
+  border-top: grey solid 1px;
+}
 
+aside button {
+  width: 4em;
+  height: 4em;
+  margin-bottom: 1em;
+  background-color:white;
+  color: black;
+  border: unset;
+  font-size: medium;
+}
 
-/* main styling */
 
 main {
   order: 2;
@@ -109,7 +141,7 @@ picture > img {
 }
 
 
-/* Sliding intro */
+/* Sliding intro voor de main pagina */
  article > picture{
   display: flex;
   flex-wrap: nowrap;
@@ -243,16 +275,13 @@ section{
 h1 {
   color:black;
   font-family: 'Roboto', sans-serif;
-  font-weight: 900;
+  font-weight: 400;
 }
 h2 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 900;
+  font-weight: 400;
 }
 
-.magazinePagina > main > article > h1 {
-  font-size: 7.5rem;
-}
 
 p {
   font-family: 'Roboto', sans-serif;
@@ -301,6 +330,9 @@ article > a button{
     max-height: 20%;
   }
 
+/* Footer is een simpele vorm van flexbox waarin informatie in een column wordt weergegeven. In het mobiele scherm worden bepaalde
+linkjes verborgen om dat deze in de aside zijn geplaatst.*/
+
 footer {
   display: flex;
   flex-direction: column;
@@ -329,7 +361,7 @@ footer > div > ul > li{
   padding: 5px;
 }
 
-ul > li > a {
+footer ul > li > a {
   font-size: 18px;
   font-weight: 300;
    color:white;
@@ -340,7 +372,14 @@ ul > li > a {
   width: 25px;
 }
 
+.magazinePagina article:nth-of-type(1) > a > img {
+  padding: 0px;
+}
+
 /* de details pagina styling die te specifiek was om gemakkelijk algemeen te kunnen schrijven. */
+.magazinePagina > main > article > h2 {
+  font-size: 3.8rem;
+}
 
 .magazinePagina > ul > li > a {
   color: black; !important;
@@ -356,6 +395,11 @@ ul > li > a {
   padding: 1em;
   text-decoration: underline;
   list-style-type: none;
+}
+
+.magazinePagina > main > article:nth-of-type(1n+2) {
+  padding-left: 12px;
+  padding-right: 6px;
 }
 
 
@@ -420,9 +464,6 @@ section#some-ultra-cool-component {
     width:100%;
     max-width: unset;
   }
-  aside > ul {
-    list-style-type: none;
-  }
 
   nav ul li:nth-of-type(3){
     visibility: hidden;
@@ -437,7 +478,13 @@ section#some-ultra-cool-component {
   ul{
     display:flex;
   }
-  aside > div, aside > a, aside > p{
+  aside li > div, aside li > p{
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+
+  aside li > a:last-of-type{
     visibility: hidden;
     width: 0;
     height: 0;
@@ -510,10 +557,10 @@ section#some-ultra-cool-component {
 }
 
 @media all and (min-width: 60em) {
- nav {
-   display: flex;
-   justify-content: flex-end;
- }
+  nav {
+    display: flex;
+    justify-content: flex-end;
+  }
 
   .magazinePagina > main > article {
     display: flex;
@@ -521,23 +568,39 @@ section#some-ultra-cool-component {
     align-items: center;
   }
 
-  .magazinePagina > main > article> button {
+  .magazinePagina > main > article > button {
     max-width: 25%;
     background-color: black;
     color: white;
   }
 
-  .magazinePagina > main > article > section{
+  .magazinePagina > main > article > section {
     flex-direction: row;
   }
+
   /*https://www.w3schools.com/cssref/sel_nth-of-type.asp*/
-  .magazinePagina > main > article:nth-of-type(2n+1) > section > a{
+  .magazinePagina > main > article:nth-of-type(2n+1) > section > a {
     width: 33%;
   }
 
+  h1 {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+  }
+
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+  }
+
+  .magazinePagina > main > article > h1 {
+    font-size: 7.5rem;
+  }
+
+  aside ul li:nth-of-type(1n+2) {
+    border-top: unset;
+  }
 }
 
-@media all and (min-width: 90em) {
-
-}
 
