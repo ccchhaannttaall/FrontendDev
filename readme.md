@@ -27,14 +27,13 @@ Mijn breakdownschets had ik dan ook liever ook voor widescreen gemaakt zodat ik 
 Overall vond ik het een leuk vak alleen had ik graag meer tijd gehad om ook animaties te leren. Dit is dan weer niet de schuld van school maar meer hoe ik de laatste tijd in mijn vel zit.
 
 **Screenshot(s):**
-
+<img src="./images/homepagina.png">
+<img src="./images/homedetail.png">
+<img src="./images/magazinepagina.png">
+<img src="./images/magazinedetail1.png">
+<img src="./images/magazinedetails2.png">
 -screenshot(s) van je eindresultaat-
-<img src="./images/eindresultaat1.png">
-<img src="./images/eindresultaat2.png">
-<img src="./images/eindresultaat3.png">
-<img src="./images/eindresultaat4.png">
-<img src="./images/eindresultaat5.png">
-<img src="./images/eindresultaat6.png">
+
 
 ## Werken met screenrecorder
 
@@ -58,6 +57,13 @@ achtergrond kan verdwijnen.
 
 mijn to do's blijven dus: Definitief de main en footer in orde maken. Daarna nog focus op de navigatiebar. 
 Vervolgens de screenreader test uitvoeren en kijken of alle code semantisch correct is. En wanneer ik tijd over heb nog expirimenteren met animatie.-
+
+<img src="./images/eindresultaat1.png">
+<img src="./images/eindresultaat2.png">
+<img src="./images/eindresultaat3.png">
+<img src="./images/eindresultaat4.png">
+<img src="./images/eindresultaat5.png">
+<img src="./images/eindresultaat6.png">
 
 
 
